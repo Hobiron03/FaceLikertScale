@@ -1,12 +1,19 @@
 {
-  "name": "@hobiron03/face-liket-scale",
+  "name": "@kamikami/face-liket-scale",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hobiron03/FaceLikertScale.git"
+  },
   "author": "hobirondokidoki.5150@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hobiron03/FaceLikertScale/issues"
+  },
+  "homepage": "https://github.com/Hobiron03/FaceLikertScale#readme"
 }
-
