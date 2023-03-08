@@ -2,7 +2,7 @@
   "name": "@kamikami/face-liket-scale",
   "version": "0.1.2",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
     "patch-publish": "npm version patch && npm publish --access=public",
     "minor-publish": "npm version minor && npm publish --access=public",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Hobiron03/FaceLikertScale/issues"
   },
-  "homepage": "https://github.com/Hobiron03/FaceLikertScale#readme"
+  "homepage": "https://github.com/Hobiron03/FaceLikertScale#readme",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
 }
