@@ -2,9 +2,14 @@
   "name": "@kamikami/face-liket-scale",
   "version": "0.1.6",
   "description": "",
-  "main": "dist/index.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-    "build": "",
+    "build": "rollup -c",
     "patch-publish": "npm version patch && npm publish --access=public",
     "minor-publish": "npm version minor && npm publish --access=public",
     "major-publish": "npm version major && npm publish --access=public"
@@ -20,8 +25,12 @@
   },
   "homepage": "https://github.com/Hobiron03/FaceLikertScale#readme",
   "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "rollup": "^3.19.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
